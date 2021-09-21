@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Luis' 10 Green Bottles</title>
+  </head>
+  <body>
+  <script>
+
+    // declare program variables
+	var name = "Luis";
+	var bottles = 10;
+    var word = bottles;
+
+    // while loop to iterate our song
+	while (bottles > 0) {
+		document.write(name + "'s " + bottles + " green bottles hanging on the wall.<br>");
+        document.write(name + "'s " + bottles + " green bottles hanging on the wall.<br>");
+        document.write("And if one green bottle should accidentally fall,<br>");
+        document.write("There'll be " + (bottles - 1) + " green bottles hanging on the wall.<br>");
+        document.write("\n");
+		bottles -= 1;
+	}
+
+  </script>
+</body>
+</html>
